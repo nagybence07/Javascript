@@ -110,7 +110,7 @@
     <p>8.Feladat</p>
 
     <script language='JavaScript'>
-        for (i = 0; i < 11; i++) {
+        for (i = 1; i < 11; i++) {
             var eredmeny = 8 * i;
             document.write("<br /> 8 " + i + " = " + eredmeny);
         }
@@ -176,10 +176,20 @@
     </script>
     <br>
     <p>13.Feladat</p>
-    <script language='JavaScript'>
-        for (let i = 1; i <= 301; i++) {
-            document.write(i, ' ');
+    <script language = 'JavaScript'>
+
+        var jelenlegi = 1;
+        var kulonbseg = 1;
+        while (currentNumber <= 301) {
+
+            document.write(jelenlegi + " ");
+
+            jelenlegi += kulonbseg;
+
+            kulonbseg++;
+
         }
+
     </script>
     <br>
 
@@ -196,21 +206,6 @@
             b = temp;
         }
     </script>
-    <p>15.Feladat</p>
-    <script language='JavaScript'>
-        
-        for (i = 1; i <= 16; i = i + 1) {
-
-            if (144 % i == 0) {
-
-                document.write(i, ' ')
-
-            }
-
-        }
-    </script>
     </body>
-
-
 
     </html>
